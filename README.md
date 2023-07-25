@@ -37,7 +37,7 @@
 
 #### 9. Go to your browser and type: localhost:91/tables.php to generate the database and localhost:91/login.php to sign up
 
-#### 10. Sign up. After siginig up sign in with the details you provided when signing up
+#### 10. Sign up. After siginig up, sign in with the details you provided when signing up
 
 #### 11. Create a simple post, make it public
 
