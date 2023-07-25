@@ -1,0 +1,17 @@
+version: "3"
+services: 
+  lister.com:
+    image: monyslim/lister.com:1.2
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - 91:80
+
+  mysql:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: newblog
+      MYSQL_ROOT_USERNAME: root
+      MYSQL_ROOT_PASSWORD: password
